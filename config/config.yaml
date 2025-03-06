@@ -1,0 +1,40 @@
+# openai
+openai_api_key: ""
+openai_api_base: ""
+# model: "gpt-4o-2024-08-06"
+
+# prompt config
+interact_mode: "proactive"  # one of ["proactive", "passive", "non-interactive"]
+
+# log config
+log_folder: "logs"
+session_id: ""
+
+# other config
+open_markdown_for_human_feedback: True
+
+draw_window_outlines: True
+draw_selected_element_outlines: True
+draw_all_element_outlines: False
+
+# pywinauto config
+backend: "uia"
+control_list: [
+  "Button", "Edit", "TabItem", "Document", "ListItem", "MenuItem",
+  "ScrollBar", "TreeItem", "Hyperlink", "ComboBox", "RadioButton",
+  "DataItem", "Pane"
+]
+annotation_dict: {
+  "Button": "#FFF68F",
+  "Edit": "#A5F0B5",
+  "TabItem": "#A5E7F0",
+  "Document": "#FFD18A",
+  "ListItem": "#D9C3FE",
+  "MenuItem": "#E7FEC3",
+  "ScrollBar": "#FEC3F8",
+  "TreeItem": "#D6D6D6",
+  "Hyperlink": "#91FFEB",
+  "ComboBox": "#D8B6D4",
+  "Pane": "#86DF70"
+}
+

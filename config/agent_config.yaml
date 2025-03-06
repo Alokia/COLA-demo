@@ -1,0 +1,229 @@
+FileManager:
+  # LM
+  lm_name: "ChatGPT"
+  lm_params:
+    openai_api_key: { }
+    openai_api_base: { }
+    model: "gpt-4o-2024-08-06"
+    temperature: 0.0
+
+  # Long-term memory
+  embedding_model: "OpenAI"
+  embedding_model_params:
+    openai_api_key: { }
+    openai_api_base: { }
+    model: "text-embedding-3-large"
+
+  enable_summarizer: False
+  summarizer_model: "OpenAI"
+  summarizer_model_params:
+    openai_api_key: { }
+    openai_api_base: { }
+    model: "gpt-4-turbo"
+
+  load_cache: True
+  cache_folder: "cache/role/file_manager"
+  cache_name: "file_manager_chat_messages"
+
+  # Other
+  n_chat_message_history: 3
+  n_short_message_history: 6
+
+Programmer:
+  # LM
+  lm_name: "ChatGPT"
+  lm_params:
+    openai_api_key: { }
+    openai_api_base: { }
+    model: "gpt-4o-2024-08-06"
+    temperature: 0.0
+
+  # Long-term memory
+  embedding_model: "OpenAI"
+  embedding_model_params:
+    openai_api_key: { }
+    openai_api_base: { }
+    model: "text-embedding-3-large"
+
+  enable_summarizer: False
+  summarizer_model: "OpenAI"
+  summarizer_model_params:
+    openai_api_key: { }
+    openai_api_base: { }
+    model: "gpt-4-turbo"
+
+  load_cache: True
+  cache_folder: "cache/role/programmer"
+  cache_name: "programmer_chat_messages"
+
+  # Other
+  n_chat_message_history: 3
+  n_short_message_history: 6
+
+
+ApplicationManager:
+  # LM
+  lm_name: "ChatGPT"
+  lm_params:
+    openai_api_key: { }
+    openai_api_base: { }
+    model: "gpt-4o-2024-08-06"
+    temperature: 0.0
+
+  # Long-term memory
+  embedding_model: "OpenAI"
+  embedding_model_params:
+    openai_api_key: { }
+    openai_api_base: { }
+    model: "text-embedding-3-large"
+
+  enable_summarizer: False
+  summarizer_model: "OpenAI"
+  summarizer_model_params:
+    openai_api_key: { }
+    openai_api_base: { }
+    model: "gpt-4-turbo"
+
+  load_cache: True
+  cache_folder: "cache/role/application_manager"
+  cache_name: "application_manager_chat_messages"
+
+  # Other
+  n_chat_message_history: 3
+  n_short_message_history: 6
+
+
+Searcher:
+  # LM
+  lm_name: "ChatGPT"
+  lm_params:
+    openai_api_key: { }
+    openai_api_base: { }
+    model: "gpt-4o-2024-08-06"
+    temperature: 0.0
+
+  # Long-term memory
+  embedding_model: "OpenAI"
+  embedding_model_params:
+    openai_api_key: { }
+    openai_api_base: { }
+    model: "text-embedding-3-large"
+
+  enable_summarizer: False
+  summarizer_model: "OpenAI"
+  summarizer_model_params:
+    openai_api_key: { }
+    openai_api_base: { }
+    model: "gpt-4-turbo"
+
+  load_cache: True
+  cache_folder: "cache/role/searcher"
+  cache_name: "searcher_chat_messages"
+
+  # Other
+  n_chat_message_history: 2
+  n_short_message_history: 6
+
+
+Reviewer:
+  # LM
+  lm_name: "ChatGPT"
+  lm_params:
+    openai_api_key: { }
+    openai_api_base: { }
+    model: "gpt-4o-2024-08-06"
+    temperature: 0.0
+
+  # Long-term memory
+  embedding_model: "OpenAI"
+  embedding_model_params:
+    openai_api_key: { }
+    openai_api_base: { }
+    model: "text-embedding-3-large"
+
+  enable_summarizer: False
+  summarizer_model: "OpenAI"
+  summarizer_model_params:
+    openai_api_key: { }
+    openai_api_base: { }
+    model: "gpt-4-turbo"
+
+  load_cache: True
+  cache_folder: "cache/reviewer"
+  cache_name: "reviewer_chat_messages"
+
+  # Other
+  n_chat_message_history: 3
+  n_short_message_history: 10
+
+
+Planner:
+  # LM
+  lm_name: "ChatGPT"
+  lm_params:
+    openai_api_key: { }
+    openai_api_base: { }
+    model: "gpt-4o-2024-08-06"
+    temperature: 0.0
+
+  # Long-term memory
+  embedding_model: "OpenAI"
+  embedding_model_params:
+    openai_api_key: { }
+    openai_api_base: { }
+    model: "text-embedding-3-large"
+
+  enable_summarizer: False
+  summarizer_model: "OpenAI"
+  summarizer_model_params:
+    openai_api_key: { }
+    openai_api_base: { }
+    model: "gpt-4-turbo"
+
+  load_cache: True
+  cache_folder: "cache/planner"
+  cache_name: "planner_chat_messages"
+
+  # Other
+  n_chat_message_history: 5
+  n_short_message_history: 10
+
+
+TaskScheduler:
+  # LM
+  lm_name: "ChatGPT"
+  lm_params:
+    openai_api_key: { }
+    openai_api_base: { }
+    model: "gpt-4o-2024-08-06"
+    temperature: 0.0
+
+  # Long-term memory
+  embedding_model: "OpenAI"
+  embedding_model_params:
+    openai_api_key: { }
+    openai_api_base: { }
+    model: "text-embedding-3-large"
+
+  enable_summarizer: False
+  summarizer_model: "OpenAI"
+  summarizer_model_params:
+    openai_api_key: { }
+    openai_api_base: { }
+    model: "gpt-4-turbo"
+
+  load_cache: True
+  cache_folder: "cache/task_scheduler"
+  cache_name: "task_scheduler_chat_messages"
+
+  # Other
+  n_chat_message_history: 3
+  n_short_message_history: 10
+
+
+Executor:
+  { }
+
+
+Interactor:
+  { }
