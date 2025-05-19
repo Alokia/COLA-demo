@@ -1,6 +1,8 @@
-# Overview
+# COLA: Collaborative Multi-Agent Framework with Dynamic Task Scheduling for GUI Automation
 This is a demonstration code during the development period, for the sake of subsequent research, we do not intend to open the full code for the time being.
 However, the demonstration code already contains all the mechanisms introduced in all the papers, and the full code only optimizes the execution logic and the interaction process, with no additional innovations.
+
+![](./asset/frame.png)
 
 # Prepare
 
